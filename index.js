@@ -29,7 +29,7 @@ inquirer
     
 })
 .catch((error)=> {
-    console.log("There was an error");
+    console.log("There was an error, refresh to try again");
     return error;
 });
 /*
